@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:enabled="true" >
+        <item android:title="Kids Activities">
+                <menu>
+                    <item
+                            android:id="@+id/nav_spellList"
+                            android:title="Spelling List"/>
+                    <item
+                            android:id="@+id/nav_spellTest"
+                            android:title="Spelling Test"/>
+                    <item
+                            android:id="@+id/nav_mathsTest"
+                            android:title="Maths Test"/>
+                </menu>
+        </item>
+    </group>
+
+    <item android:title="Joint Activities">
+        <menu>
+            <item
+                    android:id="@+id/nav_drawing"
+                    android:title="Drawing"/>
+            <item
+                    android:id="@+id/nav_quiz"
+                    android:title="Quizzes"/>
+        </menu>
+    </item>
+
+</menu>
